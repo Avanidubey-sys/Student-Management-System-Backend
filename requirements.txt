@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 fastapi
 uvicorn
 psycopg2
 python-dotenv
+=======
+fastapi
+uvicorn
+psycopg2
+python-dotenv
+>>>>>>> dd38d688d2a454bad9935f1478ac563a9f9a063c
