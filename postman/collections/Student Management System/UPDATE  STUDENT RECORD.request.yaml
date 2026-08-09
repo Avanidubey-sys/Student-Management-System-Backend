@@ -1,0 +1,16 @@
+$kind: http-request
+name: UPDATE  STUDENT RECORD
+url: http://127.0.0.1:8000/students/102
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \    \"id\": 104,\r
+
+    \    \"name\": \"Dennis Richie\",\r
+
+    \    \"course\": \"React\"\r
+
+    }"
+order: 4345962321190014

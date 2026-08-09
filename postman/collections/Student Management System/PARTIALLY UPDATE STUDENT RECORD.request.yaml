@@ -1,0 +1,8 @@
+$kind: http-request
+name: PARTIALLY UPDATE STUDENT RECORD
+url: http://127.0.0.1:8000/students/101
+method: PATCH
+body:
+  type: json
+  content: "{\r\n    \"course\":\"Python\"\r\n}"
+order: 4349120934441928

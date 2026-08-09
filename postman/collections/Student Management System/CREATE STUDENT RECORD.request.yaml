@@ -1,0 +1,16 @@
+$kind: http-request
+name: CREATE STUDENT RECORD
+url: http://127.0.0.1:8000/students
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"id\": 102,\r
+
+    \    \"name\": \"Alice\",\r
+
+    \    \"course\": \"Agentic AI\"\r
+
+    }"
+order: 4239442207110654

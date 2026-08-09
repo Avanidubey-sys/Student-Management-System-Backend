@@ -1,0 +1,8 @@
+$kind: http-request
+name: delete student data
+url: http://127.0.0.1:8000/students/102
+method: DELETE
+body:
+  type: json
+  content: "{\r\n    \"id\":102\r\n}"
+order: 4387507481114349
